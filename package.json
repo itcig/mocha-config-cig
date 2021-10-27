@@ -1,6 +1,6 @@
 {
 	"name": "@itcig/mocha-config-cig",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"license": "MIT",
 	"description": "CIG's base Mocha config, which implements our testing environment",
 	"author": {
@@ -10,7 +10,8 @@
 	"homepage": "https://github.com/itcig/mocha-config-cig#readme",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/itcig/mocha-config-cig.git"
+		"url": "git+https://github.com/itcig/itcig.git",
+		"directory": "packages/js-packages/mocha-config-cig"
 	},
 	"main": "dist/index.js",
 	"typings": "dist/typings/index.d.ts",
