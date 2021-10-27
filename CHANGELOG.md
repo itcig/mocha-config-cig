@@ -1,9 +1,4 @@
-# Change Log
-
-All notable changes to this project will be documented in this file. See
-[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
-
-# 1.1.0 (2021-10-26)
+## [1.1.0](https://github.com/itcig/mocha-config-cig/compare/@itcig/mocha-config-cig@1.1.0...@itcig/mocha-config-cig@1.1.0) (2021-10-27)
 
 ### Features
 
