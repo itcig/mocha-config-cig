@@ -6,7 +6,7 @@ module.exports = {
     opts: false,
     package: './package.json',
     recursive: true,
-    require: ['chai/register-expect', 'ts-node/register', 'esm'],
+    require: ['ts-node/register', 'esm'],
     reporter: 'spec',
     slow: 75,
     timeout: 5000,
