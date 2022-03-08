@@ -1,6 +1,6 @@
 {
 	"name": "@itcig/mocha-config-cig",
-	"version": "1.1.4",
+	"version": "1.1.5",
 	"license": "MIT",
 	"description": "CIG's base Mocha config, which implements our testing environment",
 	"author": {
