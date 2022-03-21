@@ -1,7 +1,7 @@
 'use strict';
-module.exports = {
+Object.defineProperty(exports, "__esModule", { value: true });
+const defaultOptions = {
     diff: true,
-    exit: true,
     extension: ['js', 'ts', 'tsx'],
     opts: false,
     package: './package.json',
@@ -10,7 +10,13 @@ module.exports = {
     reporter: 'spec',
     slow: 75,
     timeout: 5000,
-    'watch-files': ['src/**/*.js', 'src/**/*.ts', 'tests/**/*.js', 'tests/**/*.ts'],
-    'watch-ignore': ['dist', 'vendor'],
+};
+module.exports = function mochaConfigCig(options = defaultOptions) {
+    return {
+        ...defaultOptions,
+        ...options,
+        extension: [...(defaultOptions.extension || []), ...(options.extension || [])],
+        require: [...(defaultOptions.require || []), ...(options.require || [])],
+    };
 };
 //# sourceMappingURL=index.js.map

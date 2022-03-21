@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.0](https://github.com/itcig/itcig/compare/@itcig/mocha-config-cig@1.2.1...@itcig/mocha-config-cig@1.3.0) (2022-03-21)
+
+
+### Features
+
+* **mocha-config-cig:** allow extending config ([#18](https://github.com/itcig/itcig/issues/18)) ([7a098d5](https://github.com/itcig/itcig/commit/7a098d5ef7d44556a9eb0aa6f4118cf30484fd8e))
+
+
+
 ### [1.2.1](https://github.com/itcig/itcig/compare/@itcig/mocha-config-cig@1.2.0...@itcig/mocha-config-cig@1.2.1) (2022-03-14)
 
 **Note:** Version bump only for package @itcig/mocha-config-cig
